@@ -19,11 +19,15 @@ CIFAR-10
 The first step of our project was validation of hyperparameters, and my task, which I showcase in my repository, was finding the best learning rate. We were using an Adam optimizer and an exponential scheduler. I determined the best learning rate through the method of trial and error and came to a conclusion that the best learning rate is 0.001.
 The main criteria for selection was accuracy on the test set as shown in the graphs below.
 
+<details>
+<summary>Graphs: Test set accuracy</summary>
+<br>
 ![Learning rate 0.0001](/hiperparams_validation/figures/lr_0.0001.png "Learning rate 0.0001")
 
 ![Learning rate 0.001](/hiperparams_validation/figures/lr_0.001.png "Learning rate 0.001")
 
 ![Learning rate 0.01](/hiperparams_validation/figures/lr_0.01.png "Learning rate 0.01")
+</details>
 
 
 
