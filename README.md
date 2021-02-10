@@ -1,5 +1,11 @@
 # Semi-supervised Learning
 
+<details>
+<summary><bold>Important notes</bold></summary>
+<br>
+This project is the result of my work on the subject ProjektR at the Faculty of Electrical Engineering and Computing. I wrote all the code and ran all the experiments presented here. However, this was a group project, and none of this would be possible without the help of my fellow students and our mentor.
+</details>
+
 ## Introduction
 Image labeling is one of the most expensive tasks in computer vision. Since deep neural networks require lots of data from which they learn, there was a need for utilizing unlabeled data in the training process. This problem gave birth to a new branch of deep learning called semi-supervised learning. There are many semi-supervised methods in existence and in this project we explored &Pi;-model as described in this paper [1].
 
@@ -97,5 +103,5 @@ As we can see there is a jump in accuracy after the 50<sup>th</sup> epoch which 
 
 
 ## Literature
-> [1]: Laine, S. and Aila, T., “Temporal Ensembling for Semi-Supervised Learning”,arXiv e-prints, 2016
-> [2]: Architecture is derived from this https://dlunizg.github.io/lab2/ laboratory exercise on Faculty of Electrical Engineering and Computing.
+[1]: Laine, S. and Aila, T., “Temporal Ensembling for Semi-Supervised Learning”,arXiv e-prints, 2016 <br>
+[2]: Architecture is derived from this https://dlunizg.github.io/lab2/ laboratory exercise on Faculty of Electrical Engineering and Computing. <br>
