@@ -22,12 +22,40 @@ The main criteria for selection was accuracy on the test set as shown in the gra
 <details>
 <summary>Graphs: Test set accuracy</summary>
 <br>
+  
 ![Learning rate 0.0001](/hiperparams_validation/figures/lr_0.0001.png "Learning rate 0.0001")
+
+<figcaption>Learning rate 0.0001</figcaption>
 
 ![Learning rate 0.001](/hiperparams_validation/figures/lr_0.001.png "Learning rate 0.001")
 
+<figcaption>Learning rate 0.001</figcaption>
+
 ![Learning rate 0.01](/hiperparams_validation/figures/lr_0.01.png "Learning rate 0.01")
+
+<figcaption>Learning rate 0.01</figcaption>
 </details>
+
+### \pi - model
+The main part of our project was the implementation of \pi - model in PyTorch. The first major discovery of our experiments was the importance of mixing labeled and unlabeled data before training. Mixing data rather than training on labeled data first and then on unlabeled data resulted in a much smooter loss function and consequntly much steadier rise of accuracy as showcased.
+<details>
+<summary>Graphs: Mixed and separated data</summary>
+<br>
+ Something
+</details>
+
+After this discovery we procceeded with our implementation of \pi - model. We trained and tested our model on 250, 1000, and 4000 labeled data and , also, trained and tested our model on labeled data only to serve as a benchmark. We obtained the following results: 
+
+Table here
+
+Although, our model showed only slight improvement with 4000 labeled data compared to labeled data only, the graphs reveal something interesting.
+
+<details>
+<summary>Graph: 4000 labeled images accuracy</summary>
+<br>
+ Something
+</details>
+
 
 
 
