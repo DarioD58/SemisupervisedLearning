@@ -34,6 +34,7 @@ The main criteria for selection was accuracy on the test set as shown in the gra
 <br>
   
 <figcaption>Learning rate 0.0001</figcaption>
+
 ![Learning rate 0.0001](/hiperparams_validation/figures/lr_0.0001.png "Learning rate 0.0001")
 
 <figcaption>Learning rate 0.001</figcaption>
