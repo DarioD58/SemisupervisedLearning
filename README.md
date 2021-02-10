@@ -38,9 +38,11 @@ The main criteria for selection was accuracy on the test set as shown in the gra
 ![Learning rate 0.0001](/hiperparams_validation/figures/lr_0.0001.png "Learning rate 0.0001")
 
 <figcaption>Learning rate 0.001</figcaption>
+
 ![Learning rate 0.001](/hiperparams_validation/figures/lr_0.001.png "Learning rate 0.001")
 
 <figcaption>Learning rate 0.01</figcaption>
+
 ![Learning rate 0.01](/hiperparams_validation/figures/lr_0.01.png "Learning rate 0.01")
 </details>
 
@@ -51,9 +53,11 @@ The main part of our project was the implementation of &Pi;-model in PyTorch. Th
 <br>
 
 <figcaption>Separated labeled and unlabeled data</figcaption>
+
 ![Separated data](/plots/training_plot_separated_data_4000.png "Separated labeled and unlabeled data")
 
 <figcaption>Mixed labeled and unlabeled data</figcaption>  
+
 ![Mixed data](/plots/training_plot_connected_data_4000.png "Mixed labeled and unlabeled data")
 </details>
 
@@ -71,6 +75,7 @@ After this discovery, we proceeded with our implementation of the &Pi;-model as 
 We trained and tested our model on 250, 1000, and 4000 labeled data and, also, trained and tested our model on labeled data only to serve as a benchmark. We obtained the following results: 
 
 <figcaption>Results</figcaption>
+
 ![Results](/plots/accuracy_pi_model.png "Results")
 
 Although our model showed only a slight improvement with 4000 labeled data compared to labeled data only, the graphs reveal something interesting.
@@ -80,9 +85,11 @@ Although our model showed only a slight improvement with 4000 labeled data compa
 <br>
 
 <figcaption>Accuracy and loss on 4000 labeled data only</figcaption>
+
 ![4000 only](/plots/training_plot_4000_only.png "Accuracy and loss on 4000 labeled data only")
 
 <figcaption>Accuracy and loss on 4000 labeled data and 46000 unlabeled data</figcaption>
+
 ![4000 only](/plots/training_plot4000.png "Accuracy and loss on 4000 labeled data and 46000 unlabeled data")
 </details>
 
